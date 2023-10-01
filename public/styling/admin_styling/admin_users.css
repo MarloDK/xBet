@@ -1,0 +1,27 @@
+h3 {
+    font-family: 'TwCenMT', sans-serif;
+    font-size: 2vw;
+    margin-top: .2vw;
+}
+
+input, select {
+    outline: none;
+    border: none;
+
+    height: 4vh;
+    width: 30%;
+
+    text-align: center;
+    margin: .5vh;
+    
+    border-radius: 7.5px;
+    background-color: var(--background-color);
+
+    color: var(--text-color);
+}
+
+#showPassIcon {
+    position: absolute;
+    margin: .8vw 0 0 .5vw;
+    margin-left: -40px;
+}

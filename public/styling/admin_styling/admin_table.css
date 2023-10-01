@@ -1,0 +1,20 @@
+#page-wrapper table tbody {
+    max-height: 60vh;
+    display: block;
+    overflow-y: scroll;
+    scrollbar-color: transparent;
+}
+
+#page-wrapper table {
+    font-family: 'TwCenMT', sans-serif;
+    border: none;
+}
+
+#page-content #log-table tr {
+    width: 100%;
+    min-height: 6vh;
+    /* max-height: 8vh; */
+    display: block;
+    overflow-y: scroll;
+    scrollbar-color: transparent;
+}

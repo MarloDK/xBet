@@ -1,0 +1,5 @@
+<?php
+$db = ["servername", "dbname", "dbpass", "tablename"];
+    /*  servername  dbname  dbpass  tablename */
+$devbuild = FALSE;
+?>

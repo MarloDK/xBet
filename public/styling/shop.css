@@ -1,0 +1,78 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--background-color); 
+    border-radius: 10px;
+}
+
+/* Overall */
+#item-container {
+    font-family: 'TwCenMT', sans-serif;
+    border: solid 5px var(--header-color);
+    border-radius: 15px;
+    max-width: 78vw;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--header-color);
+
+    margin: 4vw 0 0 4vw;    
+    height: 36vw;
+    max-height: 36vw;
+}
+
+/* Items */
+.item {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: .5vw .8vw 1vw .8vw;
+    padding: .5vw;
+    text-align: left;
+    background-color: var(--background-color);
+    border: solid 3px #555;
+    border-radius: 15px;
+}
+
+.item .title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.item .description{
+    text-align: center;
+    margin-left: 27vw;
+    max-width: 20vw;
+    font-size: 1.5rem;
+}
+
+.item .price{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--yellow-main)
+}
+
+input {
+    font-family: 'TwCenMT', sans-serif;
+    font-style: normal;
+    font-size: 1.5vw;
+    color: white;
+
+    margin-left: 34vw;
+    width: 5vw;
+    height: 2.5vw;
+    padding: .5vw;
+
+    border: none;
+    border-radius: 10px;
+
+    /* margin-top: 2vw; */
+
+    background-color: var(--yellow-main);
+}

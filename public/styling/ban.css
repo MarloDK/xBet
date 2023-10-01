@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-color); 
+    border-radius: 10px;
+}
+
+body {
+    background-image: url('/public/images/roulette.png');background-size:cover;
+}
+
+#dark-bg  {
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.75);
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#dark-bg div {
+    padding: 0 10vw 3.5vw 10vw;
+    color: aliceblue;
+    font-family: 'TwCenMT', sans-serif;
+    border: solid 5px var(--header-color);
+    border-radius: 15px;
+    background-color: var(--header-color);
+    text-align:center;
+}
+#dark-bg p {
+    margin-top:2.5vw;
+}
+#logout {
+    position: relative;
+    top: 1.5vw;
+    text-decoration: none;
+    color: var(--text-color);
+    pointer-events: all;
+    font-size: 1.25vw;
+}
+
+#logout:hover {
+    cursor: pointer;
+    color: white;
+}
+#logout i {
+    padding-right: 0.5vw;
+    transition: .15s;
+}
+#logout:hover i {padding-right: .625vw;margin-left: .125vw;}
+
+* {
+    pointer-events: none;
+    user-select: none;
+}
+
+#time-left span {
+    font-size: 2.5vw;
+    color: #444;
+}
+
+#banned-grund {
+    border: solid aliceblue 3px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    pointer-events: all;
+    font-size: 1.5vw;
+    width: 25vw;
+    max-height: 11.5vh;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}

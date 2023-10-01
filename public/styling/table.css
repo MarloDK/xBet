@@ -1,0 +1,79 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-color); 
+    border-radius: 10px;
+}
+
+#page-wrapper table tbody {
+    max-height: 70vh;
+    width: 65vw;
+    display: block;
+    overflow-y: scroll;
+}
+
+#page-wrapper table{
+    position: absolute;
+    top: 5vw;
+    margin-left: 10vw;
+    border-spacing: 0;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    border: 10px solid var(--yellow-main);
+    border-radius: 15px;
+}
+
+#page-wrapper table * :not(.pfp) {
+    width: 22vw;
+    text-align: center;
+    padding: .25rem 0;
+}
+
+#page-wrapper table th{
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+#page-wrapper table .pfp{
+    /* float: left; */
+    height: 2rem;
+    margin-right: .5vw;
+    transform: translateY(.2vh);
+}
+
+#page-wrapper .fa-solid, #page-wrapper .fa-circle-user {
+    display: inline;
+    font-size: 2rem;
+    margin-right: .5vw;
+}
+
+#page-wrapper table#stat td:nth-child(1) {
+    text-align: left;
+    padding-left: 8vw;
+}
+
+#page-wrapper table tr:nth-child(odd) {
+    background-color: var(--background-color);
+}
+#page-wrapper table tr:nth-child(even) {
+    background-color: #444;
+}
+/* #page-wrapper table tbody tr td:first-child, #page-wrapper table tbody tr th:first-child {
+    
+} */
+
+
+
+
+tr:not(.header-text):hover {
+    color: var(--yellow-main);
+    font-weight: 950;
+}
+tr:hover {
+    cursor: default;
+}

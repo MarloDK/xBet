@@ -1,0 +1,133 @@
+/* Lottery */
+
+#lottery-wrapper, #pulje, #logo, #logo2 {
+    display: grid;
+}
+
+#lottery-wrapper {
+    font-family: TwCenMT;
+    width: 50%;
+    text-align: center;
+
+    margin-left: 18.5%;
+    font-size: 4vw;
+    color: gold;
+    margin-top: 1%;
+    pointer-events: none;
+    user-select: none;
+}
+
+#pulje, #logo, #logo2 {
+    display: block; 
+    font-size: 3vw;
+    background-color: var(--header-color);
+    border-radius: 10px;
+    color: gold;
+    padding: 1vw;
+}
+
+#logo {
+    background-color: transparent;
+    width: 15%;
+    margin-left: 63.75%;
+    margin-top: -10%;
+    
+
+}
+
+#logo2 {
+    background-color: transparent;
+    width: 15%;
+    margin-left: 21.25%;
+    margin-top: -10%;
+    
+}
+
+#pulje {
+    width: 50%;
+    margin-left: 25%;
+    border: gold solid 2px;
+}
+    
+#coin {
+    width: 34px;
+    height: 34px;
+    margin-left: 0.5vw;
+}
+
+#buy-panel {
+    width: 82.5%;
+    height: 63.3%;
+    background-color: var(--header-color);
+    margin-left: 2.5vw;
+    margin-top: 1vh;
+    border-radius: 15px 0 0 0;
+}
+
+#buy-panel p {
+    text-align: center;
+    font-family: TwCenMT;
+    font-size: 2vw;
+    color: var(--text-color);
+    pointer-events: none;
+    user-select: none;
+}
+
+#buy-panel p:first-child {
+    padding-top: 2vh;
+}
+
+#buy-panel ul {
+    list-style: none;
+}
+
+#buy-panel form {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#buy-panel form input {
+    outline: none;
+    border: none;
+
+    height: 4.5vh;
+    width: 25%;
+
+    text-align: center;
+    margin-top: 2vh;
+    
+    border-radius: 7.5px;
+    background-color: var(--background-color);
+
+    color: white;
+    padding: 25px;
+}
+
+#buy-panel form ul input[type="submit"] {
+    margin-top: 1.5vh;
+    background-color: var(--yellow-main);
+    padding: 0px;
+    cursor: pointer;
+}
+
+#lottery-wrapper #time-left span {
+    font-size: 2.5vw;
+    color: var(--yellow-main);
+}
+
+#buy-panel #error {
+    margin: .2vw;
+    font-size: 1vw;
+    color: red;
+}
+
+#page-wrapper #buy-panel #stats {
+    margin: 3vh;
+    
+}
+
+#page-wrapper #buy-panel #stats p {
+    font-size: 1.8vw;
+    color: var(--yellow-main);
+}

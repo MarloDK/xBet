@@ -1,0 +1,204 @@
+#bets-container {
+    margin-left: 3vw;
+    margin-top: 3vw;
+
+    width: 80%;
+    height: 77.5vh;
+
+    text-align: center;
+}
+
+.bet-display {
+    list-style: none;
+    display: inline-block;
+
+    border: 7.5px solid var(--text-color);
+    background-color: #2C2C2C;
+    border-radius: 25px;
+
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+
+    margin: 0 1vw;
+    padding: 1.25vw 2.5vh;
+    width: 30%;
+    height: 80vh;
+}
+
+.bet-display#main-bet {
+    border-color: var(--yellow-main);
+}
+
+.bet-display h1 {
+    margin: 7.5vh 0;
+
+    font-size: 3vh;
+    font-weight: normal;
+    height: 5vh;
+}
+
+
+.bet-display .top-bets {
+    margin-top: 5vh;
+    text-align: center;
+
+    display: inline-block;
+    width: 90%;
+    height: 21vh;
+
+    
+}
+
+.bet-display .top-bets h2 {
+    font-size: .75vw;
+
+    margin-bottom: 1vw;
+}
+
+
+
+.bet-display .top-bets li.top-bets-user-container {
+    list-style: none;
+    display: inline-block;
+
+    line-height: 4.5vh;
+    border-radius: 10px;
+
+    margin-bottom: .5vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container:last-child {
+    margin-bottom: 0vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container p {
+    display: inline-block;
+
+    font-size: 1vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container p.username-display {
+    float: left;
+    margin-left: 1vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container p.bet-amount-display {
+    float: right;
+    margin-right: 1vw;
+}
+
+
+.bet-display .top-bets li.top-bets-user-container:nth-child(2) {
+    background-color: var(--yellow-main);
+    width: 100%;
+    padding-right: .5vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container:nth-child(3) {
+    background-color: var(--text-color);
+    width: 90%;
+    padding-right: .35vw;
+}
+
+.bet-display .top-bets li.top-bets-user-container:nth-child(4) {
+    background-color: #E6AB51;
+    width: 75%;
+}
+
+.bet-display .top-bets li.top-bets-user-container--empty {
+    list-style: none;
+    display: inline-block;
+
+    line-height: 4.5vh;
+    border-radius: 10px;
+
+    margin-bottom: .5vw;
+
+    color: #5c5c5c;
+}
+
+.end-date {
+    color: var(--text-color);
+    font-size: 1.2vw;
+
+    font-family: 'TwCenMT', sans-serif;
+}
+
+.end-date .small {
+    font-size: .8vw;
+}
+
+
+
+.bet-display form ul {
+    display: inline-block;
+    list-style: none;
+
+    width: 100%;
+    margin-top: 1.5vh;
+}
+
+
+.bet-display form ul input {
+    outline: none;
+    border: none;
+
+    height: 4.5vh;
+    width: 90%;
+
+    text-align: center;
+    margin-top: 2vh;
+    
+    border-radius: 7.5px;
+    background-color: var(--background-color);
+
+    color: white;
+}
+
+.bet-display form ul select {
+    outline: none;
+    border: none;
+
+    height: 4.5vh;
+    width: 90%;
+
+    text-align: center;
+    margin-top: 2vh;
+    
+    border-radius: 7.5px;
+    background-color: var(--background-color);
+
+    color: white;
+}
+
+.bet-display form ul input::placeholder {
+    color: #6E6E6E;
+}
+
+.bet-display form ul input[type="submit"] {
+    height: 5vh;
+    width: 35%;
+
+    background-color: var(--text-color);
+
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.25vh;
+    color: white;
+}
+
+.bet-display#main-bet form ul input[type="submit"] {
+    background-color: var(--yellow-main);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

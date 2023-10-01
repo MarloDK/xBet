@@ -1,0 +1,93 @@
+:root {
+    --vector-length: ;
+    --vector-shown-length: ;
+}
+
+body {
+    background-color: var(--header-color);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.big-box {
+    height: 30vw;
+    width: 25vw;
+    background-color: var(--header-color);
+    border-radius: 15px;
+}
+.level {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#progress-bar {
+    stroke-dasharray: var(--vector-length);
+    stroke-dashoffset: var(--vector-length);
+    animation: zzz 2.5s ease-out forwards;
+    stroke: var(--yellow-main);
+}
+@keyframes zzz {
+    from{stroke-dashoffset: var(--vector-shown-length);}
+    10% {stroke-dashoffset: var(--vector-length);}
+    to{stroke-dashoffset: var(--vector-shown-length);}
+}
+
+#percent {
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    font-size: 3.5vw;
+}
+.level .title {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title {
+    font-size: 2.5vw;
+    position: absolute;
+}
+.small-box {
+    height: 12.5vw;
+    width: 25vw;
+    background-color: var(--header-color);
+    border-radius: 15px;
+}
+.money {
+    position: absolute;
+    top: 100px;
+    left: calc(125px + 25vw);
+}
+.money .title {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.money #money {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3.5vw;
+    color: var(--yellow-main);
+}
+.wins {
+    position: absolute;
+    top: calc(100px + 17.5vw);
+    left: calc(125px + 25vw);
+}
+.wins .title {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.wins #wins {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3.5vw;
+    color: var(--yellow-main);
+}

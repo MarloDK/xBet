@@ -1,0 +1,96 @@
+@font-face {
+    font-family: TwCenMT;
+    src: url(../fonts/TwCenClassMTStd-Regular.otf);
+}
+
+@font-face {
+    font-family: TwCenMTCondenced;
+    src: url(../fonts/TwCenMTStd-MediumCond.otf);
+}
+
+:root {
+    --background-color: #333;
+    --header-color: #222;
+
+    --yellow-main: #E8CF31;
+    --yellow-hover: #dbc63d;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    height: 5vw;
+    background-color: var(--header-color);
+    width: 100%;
+    
+}
+
+nav img {
+    display: block;
+    margin: 0 0 0 47.5vw;
+
+    height: 5vw;
+}
+
+#welcome-container img {
+    width: 100vw;
+    height: 30vw; 
+    
+    object-fit: cover; 
+    object-position: 0vw -17.5vw; 
+
+    mix-blend-mode: multiply;
+    position: absolute;
+
+    z-index: -1;
+}
+
+#welcome-container .text-container {
+    padding-top: 7.5vw;
+
+    font-family: 'TwCenMT', sans-serif;
+    text-align: center;
+    color: white;
+
+    height: 22.5vw;
+}
+
+#welcome-container .text-container h2 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    letter-spacing: .1vw;
+    padding: 0;
+}
+
+#welcome-container .text-container h1 {
+    font-size: 4vw;
+    transform: translateY(-.5vw);
+}
+
+#welcome-container .text-container a {
+    border: var(--yellow-main) solid 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: .7vw 2vw;
+
+    font-family: 'TwCenMTCondenced', sans-serif;
+    letter-spacing: .2vw;
+    font-size: 2vw;
+    color: white;
+
+}
+
+#welcome-container .text-container a:hover {
+    border: var(--yellow-hover) solid 3px;
+    background-color: rgba(0, 0, 0, 0.6);
+}

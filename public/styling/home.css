@@ -1,0 +1,108 @@
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--background-color); 
+    border-radius: 10px;
+}
+
+
+/* Overall */
+.page {
+    font-family: 'TwCenMT', sans-serif;
+    border: solid 5px var(--header-color);
+    border-radius: 15px;
+    max-width: 35vw;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--header-color);
+}
+
+.page-title {
+    padding: .5vw 0 0 0;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+  
+.page-div {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: .5vw .8vw 1vw .8vw;
+    padding: .5vw;
+    text-align: left;
+    background-color: var(--background-color);
+    border: solid 3px #555;
+    border-radius: 15px;
+}
+  
+.page-div-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.page-div-date {
+    text-align: right;
+    font-size: .8rem;
+    padding-top: .6vw;
+    font-weight: normal;
+}
+
+.page-div-author {
+    text-align: left;
+    font-size: .8rem;
+    padding-top: .6vw;
+    font-weight: normal;
+    transform: translateY(1.6vw);
+}
+  
+.page-div p {
+    font-size: 1rem;
+}
+
+.page-div a {
+    font-family: 'TwCenMT', sans-serif;
+    font-size: 1rem;
+    color: var(--yellow-main);
+}
+
+.page-div a:hover {
+    color: var(--yellow-hover);
+    cursor: pointer;
+}
+
+.page-div ul {
+    padding-left: 1vw;
+    font-size: 1rem;
+}
+
+
+/* Nyheder */
+#news {
+    margin: 4vw 0 0 6vw;    
+    height: 36vw;
+    max-height: 36vw;
+}
+
+
+/* Vejledning */
+#guide {
+    transform: translate(45vw, -36vw);
+    height: 17vw;
+    max-height: 17vw;
+}
+
+
+/* FAQ */
+#faq {
+    transform: translate(45vw, -34vw);
+    height: 17vw;
+    max-height: 17vw;
+}

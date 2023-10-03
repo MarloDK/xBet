@@ -1,4 +1,14 @@
 # xBet
-Fork af xBet fra [@TheFlowDKK](https://github.com/TheFlowDKK) (privat repo)
 
-Collaborators på det originale projekt: [@TheFlowDKK](https://github.com/TheFlowDKK) [@MarloDK](https://github.com/MarloDK) [@AlexanderDudek10](https://github.com/AlexanderDudek10) [@ThohardCode](https://github.com/Thohard-Code)
+A fake casino made in my programming classes with 4 classmates. Uses a fake currency that allows you to bet on bets made by administrators of the website (project owners). Also includes a lottery which allows users with 0 'x-coins' to rejoin.
+
+
+### Collaborators
+Below is a list of all the people that worked on the project throughout the school year (That are collaborators on the original repository).
+* [@TheFlowDKK](https://github.com/TheFlowDKK) 
+
+* [@MarloDK](https://github.com/MarloDK) 
+
+* [@AlexanderDudek10](https://github.com/AlexanderDudek10) 
+
+* [@ThohardCode](https://github.com/Thohard-Code)
